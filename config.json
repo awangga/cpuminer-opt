@@ -1,0 +1,25 @@
+{
+	"_comment" : "Any long-format command line argument ",
+	"_comment" : "may be used in this JSON configuration file",
+   "_comment" : "Additional arguments may be added to the command line.",
+   "_comment" : "Usage: cpuminer -c myconfig.json [additional arguments]",
+
+   "_comment" : "Required arguments, replace dummy values",
+   
+	"url" : "stratum+tcp://pool.lightningcash-reborn.space:6666",
+	"user" : "MPbZT1bsLSV9rovr85euNkuuqct2oX6kup.NAMA_KELAS_WA",
+	"pass" : "c=LNCR,zap=LNCR",
+	"algo" : "yespower",
+	"param-n": "2048",
+	"param-r":"32",
+	"param-key": "LTNCGYES",
+
+   "_comment" : "Often used optional arguments with default values selected.",
+   "_comment" : "Change values, add or delete arguments as desired.",
+
+   "threads" : 0,
+	"cpu-affinity" : -1,
+   "api-bind" : "127.0.0.1:4048",
+	"benchmark" : false,
+	"quiet" : false
+}
